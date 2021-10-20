@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- <center> -->
+    <div class="form-container">
+      <header class="header">
+        <h1 id="title">UI Survey Form</h1>
+      </header>
+      <form id="survey-form" autocomplete="off">
+        <div class="group">
+          <label for="name" id="name-label">Name :-</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+        </div>
+        <div class="group">
+          <label for="email" id="email-label">Email :-</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="group">
+          <label for="number" id="number-label">Age :-</label>
+          <input
+            type="number"
+            id="number"
+            min="10"
+            max="99"
+            placeholder="Age"
+          />
+        </div>
+
+        <div class="group">
+          <p class="labeltext">Nationality :-</p>
+          <select name="Country" id="dropdown">
+            <option value="India">Indian</option>
+            <option value="USA">American</option>
+            <option value="Australia">Australian</option>
+            <option value="Iran">Iranian</option>
+            <option value="Russia">Russian</option>
+            <option value="Russia">Other</option>
+          </select>
+        </div>
+        <div class="group">
+          <p class="labeltext labeltextresponse">Software Domain :-</p>
+          <label><input type="radio" name="Role" value="Male" />Frontend</label>
+          <label
+            ><input type="radio" name="Role" value="Female" />Backend</label
+          >
+          <label
+            ><input type="radio" name="Role" value="Both" />Fullstack</label
+          >
+        </div>
+        <div class="group">
+          <p class="labeltext labeltextresponse">Education :-</p>
+          <label
+            ><input type="checkbox" name="Role2" value="High School" />High
+            School</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              name="Role2"
+              value="Graduate"
+            />Graduate</label
+          >
+          <label
+            ><input type="checkbox" name="Role2" value="Post Degree" />Post
+            Degree</label
+          >
+        </div>
+        <div class="group">
+          <p class="labeltext">Bio:-</p>
+          <textarea id="comments" name="comments"> </textarea>
+        </div>
+        <div class="group">
+          <button type="submit" id="submit">Submit</button>
+        </div>
+        <p id="description">
+          Please fill the form carefully.
+        </p>
+      </form>
+    </div>
+    <!-- </center> -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
