@@ -50,7 +50,7 @@ select option {
 #description {
   text-align: center;
   padding: 5px;
-  background: #1d160e;
+  /* background: #1d160e; */
   font-family: "Trebuchet MS", sans-serif;
 }
 
@@ -65,9 +65,9 @@ input[type="checkbox"] {
   width: 95%;
   padding: 0.75rem;
   background-color: #5fd98c;
-  font-size: 15px;
+  font-size: 25px;
   color: inherit;
-  border-radius: 2px;
+  border-radius: 25px;
   cursor: pointer;
 }
 

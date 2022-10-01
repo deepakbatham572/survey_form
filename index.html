@@ -23,6 +23,9 @@
       <header class="header">
         <h1 id="title">UI Survey Form</h1>
       </header>
+      <p id="description">
+        Please fill the form carefully.
+      </p>
       <form id="survey-form" autocomplete="off">
         <div class="group">
           <label for="name" id="name-label">Name :-</label>
@@ -41,6 +44,16 @@
             id="email"
             name="email"
             placeholder="Email"
+            required
+          />
+        </div>
+        <div class="group">
+          <label for="name" id="phn">Phone-Number :-</label>
+          <input
+            type="text"
+            id="phnno"
+            name="phnno"
+            placeholder="Phone-Number"
             required
           />
         </div>
@@ -99,11 +112,11 @@
           <textarea id="comments" name="comments"> </textarea>
         </div>
         <div class="group">
-          <button type="submit" id="submit">Submit</button>
+          <button type="submit" id="submit" title="Click here to submit the form !" onclick=alert("SUBMITTED")>Submit</button>
         </div>
-        <p id="description">
+        <!-- <p id="description">
           Please fill the form carefully.
-        </p>
+        </p> -->
       </form>
     </div>
     <!-- </center> -->
